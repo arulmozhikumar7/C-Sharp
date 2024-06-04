@@ -1,53 +1,44 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-
-namespace Number_Guess_Game
+namespace NumberGuessGame
 {
     internal class Program
     {
         static void Main(string[] args)
         {
-            try
+            Random num = new Random();
+            int answer = num.Next(1, 101);
+            int no_of_guesses = 0;
+
+            Console.WriteLine("Guess the number (between 1 and 100):");
+
+            int user_input;
+            do
             {
-                Random num = new Random();
-                int answer = num.Next(100);
-                int no_of_guesses = 0;
-                Console.WriteLine("Guess the Number");
-                Console.WriteLine("Number is between 1 to 100");
-                int user_input = Convert.ToInt32(Console.ReadLine());
-                bool flag = true;
-                while (flag)
+                if (!int.TryParse(Console.ReadLine(), out user_input))
                 {
-                    if (user_input == answer)
-                    {
-                        flag = false;
-                        break;
-                    }
-                    else if (user_input > answer)
-                    {
-                        Console.WriteLine("Try a lesser number");
-                    }
-                    else
-                    {
-                        Console.WriteLine("Try a greater number");
-                    }
-                    user_input = Convert.ToInt32(Console.ReadLine());
-                    no_of_guesses++;
+                    Console.WriteLine("Invalid input. Please enter a valid number.");
+                    continue;
                 }
 
-                Console.WriteLine("Success You've Guessed the nubmer right");
-                Console.WriteLine("You've Guessed the number in " + no_of_guesses + " guesses");
-            }
-            catch (Exception ex)
-            {
-                Console.WriteLine("Must enter an number");
-                Console.WriteLine("Restart the application");
-            }
-                
+                if (user_input == answer)
+                {
+                    break;
+                }
+                else if (user_input > answer)
+                {
+                    Console.WriteLine("Try a lesser number.");
+                }
+                else
+                {
+                    Console.WriteLine("Try a greater number.");
+                }
+
+                no_of_guesses++;
+            } while (true);
+
+            Console.WriteLine("Success! You've guessed the number right.");
+            Console.WriteLine($"You've guessed the number in {no_of_guesses} guesses.");
         }
     }
 }
