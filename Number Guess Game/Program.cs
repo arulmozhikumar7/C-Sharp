@@ -10,7 +10,7 @@ namespace NumberGuessGame
             int answer = num.Next(1, 101);
             int no_of_guesses = 0;
 
-            Console.WriteLine("Guess the number (between 1 and 100):");
+            Console.WriteLine("Guess the number (Between 1 and 100):");
 
             int user_input;
             do
