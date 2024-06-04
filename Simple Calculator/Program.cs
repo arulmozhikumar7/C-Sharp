@@ -6,6 +6,7 @@ namespace SimpleCalculator
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Welcome to Simple Calculator");
             string value ="y";
             do
             {
