@@ -1,0 +1,2 @@
+arul@debian:~/presidio/self-learning-program/C#/Task-5$ dotnet run
+Word count written to out.txt
