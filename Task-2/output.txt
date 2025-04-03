@@ -1,0 +1,3 @@
+arul@debian:~/presidio/self-learning-program/C#/Task-2$ dotnet run
+Welcome Arul!
+Welcome Ronaldo!
