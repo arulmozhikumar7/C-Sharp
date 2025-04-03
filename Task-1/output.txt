@@ -1,0 +1,8 @@
+arul@debian:~/presidio/self-learning-program/C#/Task-1$ dotnet run
+Enter a positive integer: 5
+Factorial of 5 is: 120
+arul@debian:~/presidio/self-learning-program/C#/Task-1$ dotnet run
+Enter a positive integer: -5
+Invalid input. Please enter a positive integer.
+Enter a positive integer: 5
+Factorial of 5 is: 120
