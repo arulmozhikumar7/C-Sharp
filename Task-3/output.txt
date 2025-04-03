@@ -1,0 +1,50 @@
+arul@debian:~/presidio/self-learning-program/C#/Task-3$ dotnet run
+
+Choose an option:
+1. Add Item
+2. Remove Item
+3. Display Items
+4. Exit
+Enter your choice: 1
+Enter item to add: Learn C#
+Added: LEARN C#
+
+Choose an option:
+1. Add Item
+2. Remove Item
+3. Display Items
+4. Exit
+Enter your choice: 3
+
+List of Items:
+1. LEARN C#
+
+Choose an option:
+1. Add Item
+2. Remove Item
+3. Display Items
+4. Exit
+Enter your choice: 2
+
+List of Items:
+1. LEARN C#
+Enter the number of the item to remove: 1
+Removed: LEARN C#
+
+Choose an option:
+1. Add Item
+2. Remove Item
+3. Display Items
+4. Exit
+Enter your choice: 3
+
+List of Items:
+No items in the list.
+
+Choose an option:
+1. Add Item
+2. Remove Item
+3. Display Items
+4. Exit
+Enter your choice: 4
+Exiting program.
