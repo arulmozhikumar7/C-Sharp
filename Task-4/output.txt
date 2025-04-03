@@ -1,0 +1,9 @@
+arul@debian:~/presidio/self-learning-program/C#/Task-4$ dotnet run
+Enter grade threshold: 70
+
+Filtered & Sorted Students:
+Name: Student5, Grade: 95, Age: 19
+Name: Student2, Grade: 92, Age: 21
+Name: Student4, Grade: 90, Age: 20
+Name: Student1, Grade: 85, Age: 20
+Name: Student3, Grade: 78, Age: 22
