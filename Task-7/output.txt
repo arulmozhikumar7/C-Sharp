@@ -1,0 +1,9 @@
+arul@debian:~/presidio/self-learning-program/C#/Task-7$ dotnet run
+Fetching data from multiple sources...
+
+All data fetched successfully:
+
+Source A: Data received after 2000ms
+Source B: Data received after 1500ms
+Error from one source: Failed to fetch from Source C
+Source D: Data received after 1000ms
