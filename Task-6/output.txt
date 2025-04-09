@@ -1,0 +1,10 @@
+arul@debian:~/presidio/self-learning-program/C#/Task-6$ dotnet run
+Press 'i' to increment the counter or 'q' to quit.
+Counter: 1
+Counter: 2
+Counter: 3
+Counter: 4
+Counter: 5
+[LOG] Threshold 5 reached at 4/9/2025 1:49:14 PM
+[ALERT] Threshold has been hit! Value: 5
+Program Ended.
