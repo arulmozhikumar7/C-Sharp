@@ -1,0 +1,68 @@
+arul@debian:~/presidio/self-learning-program/C#/Task-8$ dotnet run
+
+--- Student Repository ---
+1. Add Student
+2. View Student
+3. Update Student
+4. Delete Student
+5. List All Students
+6. Exit
+Choose option: 1
+Enter ID: 1
+Enter Name: Arul
+Enter Age: 21
+Student added.
+
+--- Student Repository ---
+1. Add Student
+2. View Student
+3. Update Student
+4. Delete Student
+5. List All Students
+6. Exit
+Choose option: 2
+Enter ID: 1
+Id: 1, Name: Arul, Age: 21
+
+--- Student Repository ---
+1. Add Student
+2. View Student
+3. Update Student
+4. Delete Student
+5. List All Students
+6. Exit
+Choose option: 3
+Enter ID: 1
+Enter Name: Arulmozhikumar
+Enter Age: 21
+Student updated.
+
+--- Student Repository ---
+1. Add Student
+2. View Student
+3. Update Student
+4. Delete Student
+5. List All Students
+6. Exit
+Choose option: 5
+Id: 1, Name: Arulmozhikumar, Age: 21
+
+--- Student Repository ---
+1. Add Student
+2. View Student
+3. Update Student
+4. Delete Student
+5. List All Students
+6. Exit
+Choose option: 4
+Enter ID: 1
+Student deleted.
+
+--- Student Repository ---
+1. Add Student
+2. View Student
+3. Update Student
+4. Delete Student
+5. List All Students
+6. Exit
+Choose option: 6
