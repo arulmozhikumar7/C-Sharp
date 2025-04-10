@@ -1,0 +1,13 @@
+arul@debian:~/presidio/self-learning-program/C#/Task-9$ dotnet run
+Discovering [Runnable] methods...
+
+Invoking TaskA.DoTaskA()
+Task A is running...
+
+Invoking TaskB.DoTaskB()
+Task B is running...
+
+Invoking TaskC.DoTaskC()
+Task C is running...
+
+Done!
