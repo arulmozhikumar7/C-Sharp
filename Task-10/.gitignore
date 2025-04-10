@@ -1,0 +1,63 @@
+# .gitignore for ASP.NET Core Web API
+
+## Build results
+bin/
+obj/
+out/
+!**/bin/Debug/
+!**/obj/Debug/
+
+## Rider
+.idea/
+*.sln.iml
+
+## User-specific files
+*.user
+*.userosscache
+*.suo
+*.sln.docstates
+
+## VS Code
+.vscode/
+
+## Logs
+*.log
+
+## OS generated files
+.DS_Store
+Thumbs.db
+
+## ASP.NET Core
+appsettings.Development.json
+appsettings.Local.json
+appsettings.*.json
+
+## Secrets
+secrets.json
+
+## Entity Framework
+*.db
+*.sqlite
+Migrations/
+
+## DotNet Tools
+.dotnet/
+
+## Test Results
+TestResults/
+*.coverage
+*.coveragexml
+
+## NuGet
+*.nupkg
+packages/
+*.snupkg
+project.lock.json
+project.fragment.lock.json
+
+## Resharper
+_ReSharper*/
+*.[Rr]e[Ss]harper
+
+## Others
+*.vs/
